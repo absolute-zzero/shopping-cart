@@ -1,0 +1,30 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.pic {
+  grid-column: 1;
+  grid-row: 1/4;
+}
+.name {
+  grid-column: 2;
+  grid-row: 1;
+}
+.price {
+  grid-column: 3;
+  grid-row: 1;
+}
+.description {
+  grid-column: 2;
+  grid-row: 2;
+}
+.counter {
+  grid-column: 2;
+  grid-row: 3;
+}
+.total-price {
+  grid-column: 3;
+  grid-row: 3;
+}
