@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.ae24bd89.css",
+    "main.js": "/shopping-cart/static/js/main.ee940ced.js",
+    "static/js/592.904b1010.chunk.js": "/shopping-cart/static/js/592.904b1010.chunk.js",
+    "static/media/emperor.png": "/shopping-cart/static/media/emperor.9a123f3c6beea214687a.png",
+    "static/media/octane.png": "/shopping-cart/static/media/octane.5976d0a015181ba29fb4.png",
+    "static/media/fennec.png": "/shopping-cart/static/media/fennec.f5d472df14dcc7a4475f.png",
+    "static/media/tyranno.png": "/shopping-cart/static/media/tyranno.171ed2e071776d064c9f.png",
+    "static/media/takumi.png": "/shopping-cart/static/media/takumi.053c560f1ee594019d06.png",
+    "static/media/coming-soon-bg.jpg": "/shopping-cart/static/media/coming-soon-bg.079d46a96eb709c51d6d.jpg",
+    "static/media/themefisher-font.svg?ug5hnh": "/shopping-cart/static/media/themefisher-font.9be820e6fe5710738866.svg",
+    "static/media/themefisher-font.eot?ug5hnh": "/shopping-cart/static/media/themefisher-font.eaab8c237d0ea57b57d0.eot",
+    "static/media/themefisher-font.woff?ug5hnh": "/shopping-cart/static/media/themefisher-font.6af258e400caadccec9a.woff",
+    "static/media/themefisher-font.ttf?ug5hnh": "/shopping-cart/static/media/themefisher-font.611b076f2f3193550f07.ttf",
+    "static/media/bg-1.jpg": "/shopping-cart/static/media/bg-1.82b972d8243d21649dc3.jpg",
+    "static/media/dominus.png": "/shopping-cart/static/media/dominus.4da77710ed645275d355.png",
+    "static/media/modal-product.jpg": "/shopping-cart/static/media/modal-product.443677baed09e91c84ca.jpg",
+    "static/media/product-1.jpg": "/shopping-cart/static/media/product-1.147afbff55a2b78fff13.jpg",
+    "static/media/product-4.jpg": "/shopping-cart/static/media/product-4.52ddf518ecfb4718bd85.jpg",
+    "static/media/single-product.jpg": "/shopping-cart/static/media/single-product.2f82e66e3fc169128933.jpg",
+    "static/media/product-2.jpg": "/shopping-cart/static/media/product-2.213a6fb3327621b0f3d1.jpg",
+    "static/media/product-7.jpg": "/shopping-cart/static/media/product-7.d844cc6331bce575110a.jpg",
+    "static/media/product-3.jpg": "/shopping-cart/static/media/product-3.313c3f880131b9e08320.jpg",
+    "static/media/product-8.jpg": "/shopping-cart/static/media/product-8.2ebc8832171d7de0a2e3.jpg",
+    "index.html": "/shopping-cart/index.html",
+    "main.ae24bd89.css.map": "/shopping-cart/static/css/main.ae24bd89.css.map",
+    "main.ee940ced.js.map": "/shopping-cart/static/js/main.ee940ced.js.map",
+    "592.904b1010.chunk.js.map": "/shopping-cart/static/js/592.904b1010.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae24bd89.css",
+    "static/js/main.ee940ced.js"
+  ]
+}
