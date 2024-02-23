@@ -139,75 +139,74 @@ class App extends Component {
 
   render() {
     return (
-      <Router>
-        <React.Fragment>
-          <NavBar
-            totalQuantity={this.state.cartItems.reduce(
-              (sum, cartItem) => (sum = sum + cartItem.quantity),
-              0
-            )}
-            totalPrice={this.state.cartItems.reduce(
-              (sum, cartItem) =>
-                (sum = sum + cartItem.cost * cartItem.quantity),
-              0
-            )}
-            cartItems={this.state.cartItems}
-          />
+      // <Router>
+      <React.Fragment>
+        <NavBar
+          totalQuantity={this.state.cartItems.reduce(
+            (sum, cartItem) => (sum = sum + cartItem.quantity),
+            0
+          )}
+          totalPrice={this.state.cartItems.reduce(
+            (sum, cartItem) => (sum = sum + cartItem.cost * cartItem.quantity),
+            0
+          )}
+          cartItems={this.state.cartItems}
+        />
 
-          <Routes>
-            <Route
-              path="/"
-              exact
-              element={
-                <Shop
-                  handleAdd={this.handleAdd}
-                  shopItems={this.state.shopItems}
-                />
-              }
-            ></Route>
-            <Route
-              path="/cart"
-              exact
-              element={
-                <Cart
-                  cartItems={this.state.cartItems}
-                  onIncrement={this.handleIncrement}
-                  onDecrement={this.handleDecrement}
-                  onDelete={this.handleDelete}
-                  totalCartItems={
-                    this.state.cartItems.filter(
-                      (cartItem) => cartItem.quantity > 0
-                    ).length
-                  }
-                  totalQuantity={this.state.cartItems.reduce(
-                    (sum, cartItem) => (sum = sum + cartItem.quantity),
-                    0
-                  )}
-                  totalPrice={this.state.cartItems.reduce(
-                    (sum, cartItem) =>
-                      (sum = sum + cartItem.cost * cartItem.quantity),
-                    0
-                  )}
-                />
-              }
-            ></Route>
-          </Routes>
-          <footer className="footer section text-center">
-            <div className="container light">
-              <div className="row">
-                <p>
-                  <span className="m-5">romari_12345@yahoo.com</span>
-                  <span className="m-5">561-410-8124</span>
-                </p>
-              </div>
-              <div className="row">
-                <h4>Developed by Romari Bartley</h4>
-                <span>Theme from Themefisher</span>
-              </div>
+        <Routes>
+          <Route
+            path="/"
+            exact
+            element={
+              <Shop
+                handleAdd={this.handleAdd}
+                shopItems={this.state.shopItems}
+              />
+            }
+          ></Route>
+          <Route
+            path="/cart"
+            exact
+            element={
+              <Cart
+                cartItems={this.state.cartItems}
+                onIncrement={this.handleIncrement}
+                onDecrement={this.handleDecrement}
+                onDelete={this.handleDelete}
+                totalCartItems={
+                  this.state.cartItems.filter(
+                    (cartItem) => cartItem.quantity > 0
+                  ).length
+                }
+                totalQuantity={this.state.cartItems.reduce(
+                  (sum, cartItem) => (sum = sum + cartItem.quantity),
+                  0
+                )}
+                totalPrice={this.state.cartItems.reduce(
+                  (sum, cartItem) =>
+                    (sum = sum + cartItem.cost * cartItem.quantity),
+                  0
+                )}
+              />
+            }
+          ></Route>
+        </Routes>
+        <footer className="footer section text-center">
+          <div className="container light">
+            <div className="row">
+              <p>
+                <span className="m-5">romari_12345@yahoo.com</span>
+                <span className="m-5">561-410-8124</span>
+              </p>
             </div>
-          </footer>
-        </React.Fragment>
-      </Router>
+            <div className="row">
+              <h4>Developed by Romari Bartley</h4>
+              <span>Theme from Themefisher</span>
+            </div>
+          </div>
+        </footer>
+      </React.Fragment>
+      // </Router>
     );
   }
 }
