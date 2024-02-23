@@ -156,7 +156,7 @@ class App extends Component {
 
           <Routes>
             <Route
-              path="./"
+              path="/"
               exact
               element={
                 <Shop
